@@ -48,9 +48,5 @@ Aperte 0 para sair. Aperte qualquer outro botão para salvar um novo compromisso
 Sinta-se à vontade para contribuir com melhorias e novas funcionalidades! Faça um **fork** do projeto e envie um **pull request**.
 
 ---
-Criado por [Seu Nome](https://github.com/seu-usuario) 😊
-
-
----
 Criado por Larissa(https://github.com/ldematos) 😊
 
