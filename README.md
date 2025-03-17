@@ -9,10 +9,14 @@ O programa permite:
 - Adicionar novos compromissos informando a data e a descrição.
 - Salvar os compromissos de forma persistente em um arquivo `agenda.json`.
 
+## 🖥️ Interface Gráfica
+A aplicação possui um design simples e intuitivo, onde os compromissos são listados e podem ser adicionados facilmente.  
+
 ## 🛠 Tecnologias Utilizadas
 
-- Python 3
-- JSON (para armazenamento de dados)
+- **Python 3**
+- **Tkinter** (Interface Gráfica)
+- **JSON** (Armazenamento de dados)
 
 ## 🚀 Como Executar o Projeto
 
@@ -38,11 +42,12 @@ Seus compromissos salvos na agenda são:
 Aperte 0 para sair. Aperte qualquer outro botão para salvar um novo compromisso.
 ```
 
-## 📝 Estrutura do Código
-
-- `carregar_info()`: Carrega os compromissos do arquivo JSON.
-- `salvar_info(data, compromisso)`: Salva um novo compromisso no arquivo JSON.
-- Loop principal para interação com o usuário.
+📝 Estrutura do Código
+agenda_console.py → Versão que roda no terminal.
+agenda_gui.py → Versão com interface gráfica.
+carregar_info() → Carrega os compromissos do arquivo JSON.
+salvar_info() → Salva um novo compromisso no JSON.
+atualizar_lista() (apenas na versão GUI) → Atualiza a exibição dos compromissos na interface.
 
 ## 🔗 Contribuição
 Sinta-se à vontade para contribuir com melhorias e novas funcionalidades! Faça um **fork** do projeto e envie um **pull request**.
