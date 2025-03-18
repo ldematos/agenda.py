@@ -49,6 +49,10 @@ carregar_info() → Carrega os compromissos do arquivo JSON.
 salvar_info() → Salva um novo compromisso no JSON.
 atualizar_lista() (apenas na versão GUI) → Atualiza a exibição dos compromissos na interface.
 
+📝Guia das bibliotecas:
+json -> https://docs.python.org/3/library/json.html
+
+
 ## 🔗 Contribuição
 Sinta-se à vontade para contribuir com melhorias e novas funcionalidades! Faça um **fork** do projeto e envie um **pull request**.
 
